@@ -1,0 +1,14 @@
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\bin\Debug\net8.0\1_Rodriguez_4.exe
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\bin\Debug\net8.0\1_Rodriguez_4.deps.json
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\bin\Debug\net8.0\1_Rodriguez_4.runtimeconfig.json
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\bin\Debug\net8.0\1_Rodriguez_4.dll
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\bin\Debug\net8.0\1_Rodriguez_4.pdb
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\obj\Debug\net8.0\1_Rodriguez_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\obj\Debug\net8.0\1_Rodriguez_4.AssemblyInfoInputs.cache
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\obj\Debug\net8.0\1_Rodriguez_4.AssemblyInfo.cs
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\obj\Debug\net8.0\1_Rodriguez_4.csproj.CoreCompileInputs.cache
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\obj\Debug\net8.0\1_Rodriguez_4.dll
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\obj\Debug\net8.0\refint\1_Rodriguez_4.dll
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\obj\Debug\net8.0\1_Rodriguez_4.pdb
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\obj\Debug\net8.0\1_Rodriguez_4.genruntimeconfig.cache
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\1_Rodriguez_4\1_Rodriguez_4\obj\Debug\net8.0\ref\1_Rodriguez_4.dll
