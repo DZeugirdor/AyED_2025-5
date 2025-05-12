@@ -1,0 +1,65 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _1_AlbinoM_TP13
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int opcion = 0;
+            Console.WriteLine("Bienvenido al programa de ejemplo con menú interactivo");
+
+            while (opcion != 4)
+            {
+                Console.WriteLine("\n--- Menú ---");
+                Console.WriteLine("1. Mostrar un saludo");
+                Console.WriteLine("2. Sumar dos números");
+                Console.WriteLine("3. Mostrar la fecha actual");
+                Console.WriteLine("4. Salir");
+                Console.Write("Seleccione una opción (1-4): ");
+
+                string entrada = Console.ReadLine();
+
+                if (int.TryParse(entrada, out opcion))
+                {
+                    if (opcion == 1)
+                    {
+                        Console.WriteLine("Hola, que tengas un excelente día!");
+                    }
+
+                    if (opcion == 2)
+                    {
+                        Console.Write("Ingrese el primer número: ");
+                        double num1 = Convert.ToDouble(Console.ReadLine());
+                        Console.Write("Ingrese el segundo número: ");
+                        double num2 = Convert.ToDouble(Console.ReadLine());
+                        Console.WriteLine("La suma es: " + (num1 + num2));
+                    }
+
+                    if (opcion == 3)
+                    {
+                        Console.WriteLine("La fecha actual es: " + DateTime.Now.ToString("dd/MM/yyyy"));
+                    }
+
+                    if (opcion == 4)
+                    {
+                        Console.WriteLine("Saliendo del programa...");
+                    }
+
+                    if (opcion < 1 || opcion > 4)
+                    {
+                        Console.WriteLine("Opción no válida. Intente nuevamente.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Por favor, ingrese un número válido.");
+                }
+            }
+        }
+    }
+}

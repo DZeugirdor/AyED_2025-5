@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           
+                // Solicitar al usuario que ingrese el primer número
+                Console.Write("Introduce el primer número: ");
+                int numero1 = int.Parse(Console.ReadLine());
+
+                // Solicitar al usuario que ingrese el segundo número
+                Console.Write("Introduce el segundo número: ");
+                int numero2 = int.Parse(Console.ReadLine());
+
+                // Sumar los dos números
+                int resultado = numero1 - numero2;
+
+                // Mostrar el resultado
+                Console.WriteLine("El resultado de la resta es: "+ resultado);
+
+                // Esperar a que el usuario presione una tecla antes de cerrar el programa
+                Console.ReadKey();
+            }
+        }
+
+    }
+
+

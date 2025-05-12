@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _1_Albino_tp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.Write("¿Tienes comida? (sí/no): ");
+            string tieneComida = Console.ReadLine().ToLower();
+
+            
+            Console.Write("¿Tienes refugio? (si/no): ");
+            string tieneRefugio = Console.ReadLine().ToLower();
+
+            
+            Console.Write("¿Tienes un bate? (si/no): ");
+            string tieneBate = Console.ReadLine().ToLower();
+
+            
+            if (tieneComida == "si" && tieneRefugio == "si" && tieneBate == "si")
+            {
+                Console.WriteLine("\n¡Sobrevives!");
+            }
+            else
+            {
+                Console.WriteLine("\nNo sobrevives.");
+            }
+
+
+            Console.ReadKey();
+
+        }
+    }
+}

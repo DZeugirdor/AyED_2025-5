@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace O_PC5_TP11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Solicitar al usuario que ingrese el ancho y la altura del rectángulo
+            Console.Write("Ingrese el ancho del rectángulo (x): ");
+            double ancho = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Ingrese la altura del rectángulo (y): ");
+            double altura = Convert.ToDouble(Console.ReadLine());
+
+            // Calcular el perímetro, área y diagonal
+            double perimetro = 2 * (ancho + altura);
+            double area = ancho * altura;
+            double diagonal = Math.Sqrt((ancho * ancho) + (altura * altura));
+
+            // Mostrar los resultados
+            Console.WriteLine("\nResultados:");
+            Console.WriteLine($"- Perímetro: {perimetro}");
+            Console.WriteLine($"- Área: {area}");
+            Console.WriteLine($"- Diagonal: {diagonal}");
+
+            // Esperar a que el usuario presione una tecla antes de cerrar
+            Console.WriteLine("\nPresione cualquier tecla para salir.");
+            Console.ReadKey();
+        }
+    }
+}
