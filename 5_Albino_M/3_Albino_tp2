@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _3_Albino_tp2
+{
+    class Program
+    {
+        static int miPrimerFuncion(int x)
+
+        {
+            return (x * x) + (x * 2) + 3;
+        }
+        
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Ingrese un número:");
+            int valor = int.Parse(Console.ReadLine());
+            int resultado = miPrimerFuncion(valor);
+            Console.WriteLine("El resultado es: " + resultado);
+            Console.ReadKey();
+        }
+    }
+}
