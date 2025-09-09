@@ -10,26 +10,26 @@ namespace _0_pc5_tp10
     {
         static void Main(string[] args)
         {
-            // Solicitar al usuario que ingrese la temperatura en grados Celsius
+           
             Console.Write("Ingrese la temperatura en grados Celsius: ");
             double celsius;
 
-            // Validar la entrada del usuario
+           
             while (!double.TryParse(Console.ReadLine(), out celsius))
             {
                 Console.Write("Por favor, ingrese un número válido para los grados Celsius: ");
             }
 
-            // Convertir Celsius a Kelvin y Fahrenheit
+          
             double kelvin = celsius + 273.15;
             double fahrenheit = (celsius * 9 / 5) + 32;
 
-            // Mostrar los resultados
+            
             Console.WriteLine($"{celsius} grados Celsius son:");
             Console.WriteLine($"- {kelvin} Kelvin");
             Console.WriteLine($"- {fahrenheit} Fahrenheit");
 
-            // Esperar a que el usuario presione una tecla antes de cerrar
+            
             Console.WriteLine("Presione cualquier tecla para salir.");
             Console.ReadKey();
 
@@ -38,3 +38,4 @@ namespace _0_pc5_tp10
         }
     }
 }
+
