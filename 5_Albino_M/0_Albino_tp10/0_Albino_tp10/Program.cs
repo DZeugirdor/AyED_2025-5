@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _0_Albino_tp10
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.Write("Ingrese la temperatura en grados Celsius: ");
+            double celsius;
+
+
+            while (!double.TryParse(Console.ReadLine(), out celsius))
+            {
+                Console.Write("Por favor, ingrese un número válido para los grados Celsius: ");
+            }
+
+
+            double kelvin = celsius + 273.15;
+            double fahrenheit = (celsius * 9 / 5) + 32;
+
+
+            Console.WriteLine($"{celsius} grados Celsius son:");
+            Console.WriteLine($"- {kelvin} Kelvin");
+            Console.WriteLine($"- {fahrenheit} Fahrenheit");
+
+
+            Console.WriteLine("Presione cualquier tecla para salir.");
+            Console.ReadKey();
+
+        }
+    }
+}
