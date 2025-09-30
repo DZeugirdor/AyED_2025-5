@@ -1,0 +1,14 @@
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\bin\Debug\net8.0\2_Rodriguez_tp8.exe
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\bin\Debug\net8.0\2_Rodriguez_tp8.deps.json
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\bin\Debug\net8.0\2_Rodriguez_tp8.runtimeconfig.json
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\bin\Debug\net8.0\2_Rodriguez_tp8.dll
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\bin\Debug\net8.0\2_Rodriguez_tp8.pdb
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\obj\Debug\net8.0\2_Rodriguez_tp8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\obj\Debug\net8.0\2_Rodriguez_tp8.AssemblyInfoInputs.cache
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\obj\Debug\net8.0\2_Rodriguez_tp8.AssemblyInfo.cs
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\obj\Debug\net8.0\2_Rodriguez_tp8.csproj.CoreCompileInputs.cache
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\obj\Debug\net8.0\2_Rodriguez_tp8.dll
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\obj\Debug\net8.0\refint\2_Rodriguez_tp8.dll
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\obj\Debug\net8.0\2_Rodriguez_tp8.pdb
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\obj\Debug\net8.0\2_Rodriguez_tp8.genruntimeconfig.cache
+C:\Users\Dilan\Desktop\Dilan Rodriguez_J\2_Rodriguez_tp8\obj\Debug\net8.0\ref\2_Rodriguez_tp8.dll

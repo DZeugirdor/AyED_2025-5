@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "qweVYD2dLP0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dilan\\Desktop\\Dilan Rodriguez_J\\2_Rodriguez_tp8\\2_Rodriguez_tp8.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dilan\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.15\\microsoft.dotnet.ilcompiler.8.0.15.nupkg.sha512",
+    "C:\\Users\\Dilan\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.15\\microsoft.net.illink.tasks.8.0.15.nupkg.sha512",
+    "C:\\Users\\Dilan\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.15\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
