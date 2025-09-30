@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _0_Albino_tp11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Ingrese el ancho del rectángulo (x): ");
+            double ancho = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Ingrese la altura del rectángulo (y): ");
+            double altura = Convert.ToDouble(Console.ReadLine());
+
+            double perimetro = 2 * (ancho + altura);
+            double area = ancho * altura;
+            double diagonal = Math.Sqrt((ancho * ancho) + (altura * altura));
+
+            Console.WriteLine("\nResultados:");
+            Console.WriteLine($"- Perímetro: {perimetro}");
+            Console.WriteLine($"- Área: {area}");
+            Console.WriteLine($"- Diagonal: {diagonal}");
+
+            Console.WriteLine("\nPresione cualquier tecla para salir.");
+            Console.ReadKey();
+        }
+    }
+}
