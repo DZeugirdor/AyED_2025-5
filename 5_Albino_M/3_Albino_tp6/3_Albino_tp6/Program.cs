@@ -1,0 +1,115 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _3_Albino_tp6
+{
+    class Program
+    {
+        static void Main()
+        {
+            Console.WriteLine("=== MINI BALATRO (versión simplificada) ===\n");
+
+            string[] mano = GenerarManoAleatoria();
+
+            string tipo = TipoDeMano(mano);
+
+            int basePts = PuntajeBase(mano);
+
+            double mult = Multiplicador(tipo);
+
+            double total = basePts * mult;
+
+            bool jokerX2 = true;
+            bool jokerMas10 = true;
+            total = AplicarJokers(total, jokerX2, jokerMas10);
+
+            MostrarResumen(mano, tipo, basePts, mult, total);
+
+            Console.WriteLine("\nPresione una tecla para salir...");
+            Console.ReadKey();
+        }
+
+        // 1) Generar mano aleatoria
+        static string[] GenerarManoAleatoria()
+        {
+            string[] rangos = { "A", "K", "Q", "J", "T", "9", "8", "7", "6", "5", "4", "3", "2" };
+            string[] palos = { "H", "D", "C", "S" };
+            Random rnd = new Random();
+            string[] mano = new string[5];
+
+            for (int i = 0; i < 5; i++)
+            {
+                string carta = rangos[rnd.Next(rangos.Length)] + palos[rnd.Next(palos.Length)];
+                mano[i] = carta;
+            }
+
+            return mano;
+        }
+
+        // 2) Determinar tipo de mano
+        static string TipoDeMano(string[] mano)
+        {
+            var rangos = mano.Select(c => c.Substring(0, 1));
+            var grupos = rangos.GroupBy(r => r).Select(g => g.Count()).OrderByDescending(c => c).ToList();
+
+            if (grupos.Contains(4)) return "Poker";
+            if (grupos.Contains(3) && grupos.Contains(2)) return "Full";
+            if (grupos.Contains(3)) return "Trio";
+            if (grupos.Contains(2)) return "Par";
+            return "Nada";
+        }
+
+        // 3) Puntaje base
+        static int PuntajeBase(string[] mano)
+        {
+            int ValorCarta(string r)
+            {
+                switch (r)
+                {
+                    case "A": return 14;
+                    case "K": return 13;
+                    case "Q": return 12;
+                    case "J": return 11;
+                    case "T": return 10;
+                    default: return int.Parse(r);
+                }
+            }
+
+            return mano.Sum(c => ValorCarta(c.Substring(0, 1)));
+        }
+
+        // 4) Multiplicador
+        static double Multiplicador(string tipo)
+        {
+            switch (tipo)
+            {
+                case "Par": return 1.5;
+                case "Trio": return 2.5;
+                case "Full": return 3.5;
+                case "Poker": return 4.0;
+                default: return 1.0;
+            }
+        }
+
+        // 5) Aplicar Jokers
+        static double AplicarJokers(double puntaje, bool x2, bool mas10)
+        {
+            if (x2) puntaje *= 2;
+            if (mas10) puntaje += 10;
+            return puntaje;
+        }
+
+        // 6) Mostrar resumen
+        static void MostrarResumen(string[] mano, string tipo, int basePts, double mult, double total)
+        {
+            Console.WriteLine("Mano: " + string.Join(" ", mano.Select(c => $"[{c}]")));
+            Console.WriteLine("Tipo: " + tipo);
+            Console.WriteLine("Puntaje base: " + basePts);
+            Console.WriteLine("Multiplicador: x" + mult);
+            Console.WriteLine("Total (con Jokers): " + total);
+        }
+    }
+}
