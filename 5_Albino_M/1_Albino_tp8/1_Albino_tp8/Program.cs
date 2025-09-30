@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _1_Albino_tp8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("cuantos años tienes");
+            string numero = Console.ReadLine();
+            int edad;
+            if (int.TryParse(numero, out edad) && edad > 0)
+            {
+                Console.WriteLine("has cumplido los siguientes años");
+
+
+                for (int i = 1; i <= edad; i++)
+                {
+
+                    Console.WriteLine(i);
+                }
+                Console.ReadKey();
+            }
+    }
+}
